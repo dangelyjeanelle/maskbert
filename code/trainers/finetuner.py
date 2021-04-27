@@ -6,7 +6,7 @@ import torch.nn as nn
 
 from .base import BaseTrainer
 from .hooks.base_hook import HookContainer
-from .hooks.cosine_lr_scheduler import LRScheduler
+# from .hooks.cosine_lr_scheduler import LRScheduler
 from utils.stat_tracker import RuntimeTracker
 from utils.timer import Timer
 import utils.eval_meters as eval_meters

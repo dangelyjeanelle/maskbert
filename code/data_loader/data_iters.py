@@ -5,11 +5,11 @@ from .bert_formatting import (
     multiplechoice_example_to_feature,
 )
 from .glue.datasets import *
-from .reading_compr.datasets import *
-from .tagging.datasets import *
-from .textcls.text_classification import *
-from .semeval.datasets import *
-from .ner.datasets import *
+# from .reading_compr.datasets import *
+# from .tagging.datasets import *
+# from .textcls.text_classification import *
+# from .semeval.datasets import *
+# from .ner.datasets import *
 import torch
 import os
 import pickle
@@ -47,16 +47,16 @@ task2dataset = {
     "cola": COLADataset,
     "qnli": QNLIDataset,
     "rte": RTEDataset,
-    "posptb": PTBTDataset,
-    "swag": SWAGDataset,
-    "agnews": AGNEWSDataset,
-    "trec": TRECDataset,
-    "dbpedia": DBPEDIADataset,
-    "yelp2": YELPDataset,
-    "semeval16": SEMEVAL16Dataset,
-    "conll2003": CONLL2003Dataset,
-    "germeval": GermEvalDataset,
-    "imdb": IMDBDataset,
+    # "posptb": PTBTDataset,
+    # "swag": SWAGDataset,
+    # "agnews": AGNEWSDataset,
+    # "trec": TRECDataset,
+    # "dbpedia": DBPEDIADataset,
+    # "yelp2": YELPDataset,
+    # "semeval16": SEMEVAL16Dataset,
+    # "conll2003": CONLL2003Dataset,
+    # "germeval": GermEvalDataset,
+    # "imdb": IMDBDataset,
 }
 
 

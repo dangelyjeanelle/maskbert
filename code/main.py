@@ -18,13 +18,13 @@ import utils.param_parser as param_parser
 
 
 config = dict(
-    ptl="bert",
-    model="bert-base-uncased",
-    task="mrpc",
+    ptl="distilbert",
+    model="distilbert-base-uncased",
+    task="rte",
     model_scheme="vector_cls_sentence",
     experiment="debug",
     max_seq_len=128,
-    lr=1e-3,
+    lr=9e-4,
     world="0",
     batch_size=32,
     eval_every_batch=60,
