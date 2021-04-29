@@ -20,7 +20,7 @@ import utils.param_parser as param_parser
 config = dict(
     ptl="distilbert",
     model="distilbert-base-uncased",
-    task="rte",
+    task="qnli",
     model_scheme="vector_cls_sentence",
     experiment="debug",
     max_seq_len=128,

@@ -92,7 +92,7 @@ class QNLIDataset(GlueDataset):
                         uid=uid, text_a=text_a, text_b=text_b, label=label
                     )
                 )
-        sentence_pair_egs = random.sample(sentence_pair_egs, 1,000)        
+        sentence_pair_egs = random.sample(sentence_pair_egs, 1000)        
         return sentence_pair_egs
 
 
