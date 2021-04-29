@@ -1,5 +1,6 @@
 import os
 from ..common import SentencePairExample, SentenceExample
+import random
 
 
 __all__ = [
@@ -91,6 +92,7 @@ class QNLIDataset(GlueDataset):
                         uid=uid, text_a=text_a, text_b=text_b, label=label
                     )
                 )
+        sentence_pair_egs = random.sample(sentence_pair_egs, 1,000)        
         return sentence_pair_egs
 
 
